@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="#00FFD0"
+    android:gravity="center"
+    android:text="Select Stories"
+    android:textColor="#040473"
+    android:textSize="20sp">
+
+</TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#01ff66"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/liv_story"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
